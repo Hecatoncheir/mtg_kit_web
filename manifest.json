@@ -1,11 +1,11 @@
 {
-    "name": "mtg_kit",
-    "short_name": "mtg_kit",
+    "name": "MTGKit",
+    "short_name": "MTGKit",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "MTGKit.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
