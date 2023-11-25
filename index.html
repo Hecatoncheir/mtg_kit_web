@@ -15,7 +15,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <!--  <base href="/">-->
+<!--  <base href="/">-->
   <base href="/mtg_kit_web/">
 
   <meta charset="UTF-8">
@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "808508744";
+    const serviceWorkerVersion = "2262937864";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -64,7 +64,10 @@
         return appRunner.runApp();
       });
     });
+
+    window.addEventListener("fetch", (event) => {});
   </script>
+
 </body>
 
 </html>
